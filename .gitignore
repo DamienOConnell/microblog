@@ -1,6 +1,7 @@
 venv
+app/__pycache__/
 *.pyc
 .DS_Store
 .env
-__pycache__
+__pycache__/*
 .flaskenv

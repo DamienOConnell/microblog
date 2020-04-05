@@ -36,10 +36,6 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
-        # lookup by username has failed:
-        if user is None:
-            # Try lookup by email address:
-            user = User.query.filter_by(email=form.username.data).first()
         if user is None or not user.check_password(form.password.data):
             flash("Invalid username or password")
             return redirect(url_for("login"))
