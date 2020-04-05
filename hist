@@ -1,0 +1,9 @@
+25e911362b67 -> 60b6e7c42ec3 (head), empty message
+67add09ae7e8 -> 25e911362b67, New DB fields in user model
+5e79993992de -> 67add09ae7e8, New DB fields in user model
+0f456a5bcc8a -> 5e79993992de, posts table
+<base> -> 0f456a5bcc8a, users table
+
+
+
+25e911362b67
